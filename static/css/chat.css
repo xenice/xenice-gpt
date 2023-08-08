@@ -1,0 +1,83 @@
+body {
+    font-family: "Helvetica Neue", "Luxi Sans", "Segoe UI", "Hiragino Sans GB", "Microsoft Yahei", sans-serif, "Apple Logo";
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+
+}
+
+
+.message{
+    padding: 5px 20px;
+    box-sizing: border-box;
+}
+.message p, .message pre{
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.message.question{
+    max-width:fit-content;
+    border-radius: 10px;
+    background-color: #99ccff;
+    margin-bottom: 20px;
+}
+.message.answer{
+    max-width:fit-content;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(244 246 248);
+}
+
+.message pre{
+    width: 100%;
+    padding: 10px;
+    background-color: #23241f;
+    border-radius: 6px;
+    color: #f8f8f2;
+    box-sizing: border-box;
+    overflow-x: auto;
+}
+
+.input-area {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-top: 1px solid #ffffff;
+}
+
+textarea {
+    flex: 1;
+    height: 52px;
+    padding: 5px 10px;
+    line-height: 20px;
+    resize: none;
+    border: 1px solid #c3c6cb;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 6px;
+    -webkit-appearance: none;
+}
+
+button {
+    margin-left: 10px;
+    height: 40px;
+    padding: 0 20px;
+    line-height: 40px;
+    background-color: #0099FF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: #007bff;
+}
+
+button:disabled {
+    background-color: #c3c6cb;
+    cursor: not-allowed;
+}
